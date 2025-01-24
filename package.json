@@ -1,0 +1,16 @@
+{
+  "name": "adivina-numero",
+  "version": "1.0.0",
+  "description": "Mi primer proyecto de JavaScript.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.18.0",
+    "eslint-config-prettier": "^10.0.1",
+    "prettier": "^3.4.2"
+  }
+}
