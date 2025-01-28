@@ -23,9 +23,11 @@ initData()
 function initData() {
   score = INITIAL_SCORE
   scoreField.textContent = score
+  highscore = Number(localStorage.getItem('highscore')) || 0
+  highscoreField.textContent = highscore
   highscore = highscore || 0
   number = Math.trunc(Math.random() * MAX_NUMBER) + 1
-  console.log(number, '*****************************')
+  console.log(number, 'el número secreto')
 }
 
 checkBtn.addEventListener('click', checkNumber)
